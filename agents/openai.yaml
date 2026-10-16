@@ -1,0 +1,4 @@
+interface:
+  display_name: "费用分类与截图匹配"
+  short_description: "只需未报明细和截图，自动套用内置格式分类排图，疑项留给人工核对"
+  default_prompt: "使用 $expense-receipt-workflow 根据我提供的未报明细和截图，自动使用技能内置模板完成分类、匹配和排版，不能确认的图片留空并生成核对清单。"
